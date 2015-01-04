@@ -3,8 +3,8 @@
 # $Header: $
 
 EAPI=5
-
 PYTHON_COMPAT=( python{2_7,3_3,3_4} )
+
 inherit distutils-r1
 
 DESCRIPTION="csvkit is a suite of utilities for converting to and working with CSV, the king of tabular file formats"
