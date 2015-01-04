@@ -9,4 +9,6 @@ How to install this overlay
 
 You can easily install this overlay using layman:
 
+```
 layman --add and3k-sunrise
+```
