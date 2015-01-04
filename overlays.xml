@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[and3k-sunrise]]></name>
+    <description><![CDATA[and3ks unstable ebuilds]]></description>
+    <homepage>http://bitbucket.org/and3k/and3k-sunrise-overlay</homepage>
+    <owner type="person">
+      <email>post@belahausmann.name</email>
+      <name><![CDATA[Bela Hausmann]]></name>
+    </owner>
+    <source type="mercurial">ssh://hg@bitbucket.org/and3k/and3k-sunrise-overlay</source>
+    <source type="mercurial">http://bitbucket.org/and3k/and3k-sunrise-overlay</source>
+    <feed>http://bitbucket.org/and3k/and3k-sunrise-overlay/atom</feed>
+    <feed>http://bitbucket.org/and3k/and3k-sunrise-overlay/rss</feed>
+  </repo>
+</repositories>

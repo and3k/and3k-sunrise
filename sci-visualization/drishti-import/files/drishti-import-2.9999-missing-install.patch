@@ -1,0 +1,19 @@
+diff -r 980430f18066 tools/import/import.pro
+--- a/tools/import/import.pro	Mon Feb 22 12:26:54 2010 +1100
++++ b/tools/import/import.pro	Sun Mar 07 21:12:15 2010 +0100
+@@ -67,6 +67,15 @@
+ }
+ }
+ 
++isEmpty(PREFIX) {
++  PREFIX=/usr
++}
++isEmpty(BINDIR) {
++  BINDIR=$${PREFIX}/bin
++}
++target.path = $${BINDIR}
++INSTALLS = target
++
+ macx {
+ INCLUDEPATH += . \
+ 	../../3rdParty/include \

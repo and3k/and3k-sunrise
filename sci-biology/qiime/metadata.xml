@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <use>
+    <flag name="blast">Pulls in BLAST (ncbi-tools)</flag>
+    <flag name="uclust">Pulls in uclust</flag>
+    <flag name="pynast">Pulls in PyNAST</flag>
+    <flag name="matplotlib">Pulls in matplotlib</flag>
+    <flag name="chimeraslayer">Pulls in ChimeraSlayer (microbiomeutil)</flag>
+  </use>
+</pkgmetadata>

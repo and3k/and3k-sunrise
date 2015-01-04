@@ -1,0 +1,11 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using egencache *
+
+dev-python/biom-format:dateutil - Required if using the biom validate-table command
+dev-python/biom-format:scipy - Required if using the ScipySparseMat sparse matrix backend
+sci-biology/qiime:blast - Pulls in BLAST (ncbi-tools)
+sci-biology/qiime:chimeraslayer - Pulls in ChimeraSlayer (microbiomeutil)
+sci-biology/qiime:matplotlib - Pulls in matplotlib
+sci-biology/qiime:pynast - Pulls in PyNAST
+sci-biology/qiime:uclust - Pulls in uclust

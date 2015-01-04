@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <use>
+    <flag name="dateutil">Required if using the biom validate-table command</flag>
+    <flag name="scipy">Required if using the ScipySparseMat sparse matrix backend</flag>
+  </use>
+</pkgmetadata>
