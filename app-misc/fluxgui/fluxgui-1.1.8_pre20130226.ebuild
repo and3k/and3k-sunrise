@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit distutils git-2
+inherit distutils git-2 eutils
 
 DESCRIPTION="f.lux indicator applet is an indicator applet to control xflux, an application that makes the color of your computer’s display adapt to the time of day, warm at nights and like sunlight during the day"
 HOMEPAGE="http://justgetflux.com/ https://github.com/Kilian/f.lux-indicator-applet"
@@ -21,3 +21,11 @@ DEPEND=""
 RDEPEND="${DEPEND}
   dev-python/pexpect
 "
+
+src_prepare() {
+	python -m appindicator
+	if [ $? -ne 0 ]; then
+		# AppIndicator replacement for systems without Unity 
+		epatch "${FILESDIR}/${PN}-1.1.8-appindicator.patch"
+	fi
+}
