@@ -1,10 +1,11 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=5
+PYTHON_COMPAT=( python2_7 )
 
-inherit distutils git-2 eutils
+inherit distutils-r1 git-2 eutils
 
 DESCRIPTION="f.lux indicator applet is an indicator applet to control xflux, an application that makes the color of your computer’s display adapt to the time of day, warm at nights and like sunlight during the day"
 HOMEPAGE="http://justgetflux.com/ https://github.com/Kilian/f.lux-indicator-applet"
