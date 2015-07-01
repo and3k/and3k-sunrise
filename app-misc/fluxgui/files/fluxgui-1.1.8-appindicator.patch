@@ -1,6 +1,6 @@
-diff -Pu fluxgui_original/appindicator_replacement.py appindicator_replacement.py
---- fluxgui_original/appindicator_replacement.py	1969-12-31 21:00:00.000000000 -0300
-+++ appindicator_replacement.py	2015-05-08 05:35:47.417496000 -0300
+diff -Pu a/src/fluxgui/appindicator_replacement.py b/src/fluxgui/appindicator_replacement.py
+--- a/src/fluxgui/appindicator_replacement.py	1969-12-31 21:00:00.000000000 -0300
++++ b/src/fluxgui/appindicator_replacement.py	2015-05-08 05:35:47.417496000 -0300
 @@ -0,0 +1,130 @@
 +#=========================
 +#
@@ -132,9 +132,9 @@ diff -Pu fluxgui_original/appindicator_replacement.py appindicator_replacement.p
 +	def hide_menu(self):
 +		
 +		self.menu.popdown()
-diff -Pu fluxgui_original/fluxapp.py fluxapp.py
---- fluxgui_original/fluxapp.py	2015-05-19 22:00:58.509152404 -0300
-+++ fluxapp.py	2015-05-08 04:05:21.556518000 -0300
+diff -Pu a/src/fluxgui/fluxapp.py b/src/fluxgui/fluxapp.py
+--- a/src/fluxgui/fluxapp.py	2015-05-19 22:00:58.509152404 -0300
++++ b/src/fluxgui/fluxapp.py	2015-05-08 04:05:21.556518000 -0300
 @@ -4,11 +4,15 @@
  from fluxgui.exceptions import MethodUnavailableError
  import gtk
