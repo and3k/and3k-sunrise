@@ -35,4 +35,6 @@ src_prepare() {
 		EPATCH_SUFFIX="patch.lzma"
 		epatch --binary "${FILESDIR}/${PN}-1.1.8-xflux-x86.patch.lzma"
 	fi
+
+	epatch "${FILESDIR}/${PN}-1.1.8-pseudomutex.patch"
 }
