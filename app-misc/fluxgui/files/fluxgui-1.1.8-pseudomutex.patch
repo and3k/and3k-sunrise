@@ -1,0 +1,14 @@
+--- a/src/fluxgui/xfluxcontroller.py	2013-10-19 15:14:41.000000000 -0300
++++ b/src/fluxgui/xfluxcontroller.py	2015-08-26 23:29:22.009951328 -0300
+@@ -66,6 +66,11 @@
+             startup_args = self._create_startup_arg_list(self._current_color,
+                 **self.init_kwargs)
+         try:
++            previous_instances = pexpect.run('pgrep -d, -u %s xflux' % pexpect.run('whoami')).strip()
++            if previous_instances != "":
++                for process in previous_instances.split(","):
++                    pexpect.run('kill -9 %s' % process)
++                   
+             self._xflux = pexpect.spawn("xflux", startup_args)
+                     #logfile=file("tmp/xfluxout.txt",'w'))
+ 

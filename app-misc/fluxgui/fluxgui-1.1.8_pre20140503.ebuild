@@ -29,4 +29,12 @@ src_prepare() {
 		# AppIndicator replacement for systems without Unity 
 		epatch "${FILESDIR}/${PN}-1.1.8-appindicator.patch"
 	fi
+
+	if use x86; then
+		# 32 bits version of xflux
+		EPATCH_SUFFIX="patch.lzma"
+		epatch --binary "${FILESDIR}/${PN}-1.1.8-xflux-x86.patch.lzma"
+	fi
+
+	epatch "${FILESDIR}/${PN}-1.1.8-pseudomutex.patch"
 }
