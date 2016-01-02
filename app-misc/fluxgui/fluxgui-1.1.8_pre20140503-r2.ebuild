@@ -37,4 +37,5 @@ src_prepare() {
 	fi
 
 	epatch "${FILESDIR}/${PN}-1.1.8-pseudomutex.patch"
+	epatch "${FILESDIR}/${PN}-1.1.8-pid-collision.patch"
 }
