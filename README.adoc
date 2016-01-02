@@ -2,7 +2,7 @@
 
 This is my personal Portage overlay for Gentoo Linux.
 
-Browse it here: http://gpo.zugaina.org/Overlays/and3k-sunrise
+Browse it at http://gpo.zugaina.org/Overlays/and3k-sunrise or https://github.com/and3k/and3k-sunrise.
 
 
 # How to install this overlay
