@@ -25,9 +25,9 @@ RDEPEND="${DEPEND}
 "
 
 src_prepare() {
-	python -m appindicator
+	python2 -c "import appindicator"
 	if [ $? -ne 0 ]; then
-		# AppIndicator replacement for systems without Unity 
+		# AppIndicator replacement for systems without Unity
 		epatch "${FILESDIR}/${PN}-1.1.8-appindicator.patch"
 	fi
 
