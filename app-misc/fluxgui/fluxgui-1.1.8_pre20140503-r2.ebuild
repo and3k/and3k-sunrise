@@ -21,12 +21,13 @@ EGIT_COMMIT="7fc8de35afd829ad1c8e477b7b8bc8c014ffa041"
 DEPEND=""
 RDEPEND="${DEPEND}
   dev-python/pexpect
+  dev-libs/libappindicator[python]
 "
 
 src_prepare() {
-	python -m appindicator
+	python2 -c "import appindicator"
 	if [ $? -ne 0 ]; then
-		# AppIndicator replacement for systems without Unity 
+		# AppIndicator replacement for systems without Unity
 		epatch "${FILESDIR}/${PN}-1.1.8-appindicator.patch"
 	fi
 
