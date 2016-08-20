@@ -21,6 +21,8 @@ EGIT_COMMIT="7fc8de35afd829ad1c8e477b7b8bc8c014ffa041"
 DEPEND=""
 RDEPEND="${DEPEND}
   dev-python/pexpect
+  dev-python/gconf-python
+  dev-python/pyxdg
 "
 
 src_prepare() {
