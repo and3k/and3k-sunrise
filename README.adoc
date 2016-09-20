@@ -5,7 +5,7 @@ This is my personal Portage overlay for Gentoo Linux.
 Browse it at http://gpo.zugaina.org/Overlays/and3k-sunrise or https://github.com/and3k/and3k-sunrise.
 
 
-# How to install this overlay
+## How to install this overlay
 
 You can easily install this overlay using layman:
 
@@ -14,6 +14,7 @@ layman --add and3k-sunrise
 ```
 
 
-# Contributions
+## Contributors
 
 * https://github.com/aaferrari (app-misc/fluxgui)
+* https://github.com/v1kko (app-misc/fluxgui)
