@@ -25,4 +25,6 @@ fi
 LICENSE="GPL-3+"
 SLOT="0"
 
+DEPEND="virtual/ffmpeg"
+
 CMAKE_USE_DIR="${S}/src"
