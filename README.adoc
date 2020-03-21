@@ -7,7 +7,7 @@ Browse it at http://gpo.zugaina.org/Overlays/and3k-sunrise or https://github.com
 
 ## How to install this overlay
 
-You can easily install this overlay using layman:
+You can install this overlay using `layman`:
 
 ```
 layman --add and3k-sunrise
@@ -16,5 +16,7 @@ layman --add and3k-sunrise
 
 ## Contributors
 
-* https://github.com/aaferrari (app-misc/fluxgui)
-* https://github.com/v1kko (app-misc/fluxgui)
+`app-misc/fluxgui`:
+
+* https://github.com/aaferrari
+* https://github.com/v1kko
