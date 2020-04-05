@@ -1,4 +1,4 @@
-# The and3k-sunrise Gentoo overlay
+= The and3k-sunrise Gentoo Linux Portage overlay
 
 [link=http://gpo.zugaina.org/Overlays/and3k-sunrise]
 image::https://img.shields.io/badge/Gentoo_Linux-Portage_overlay-6e56af[Gentoo Linux Portage overlay]
@@ -8,7 +8,7 @@ This is my personal Portage overlay for Gentoo Linux.
 Browse it at http://gpo.zugaina.org/Overlays/and3k-sunrise or https://github.com/and3k/and3k-sunrise.
 
 
-## How to install this overlay
+== Installation
 
 You can install this overlay using `layman`:
 
@@ -17,7 +17,7 @@ layman --add and3k-sunrise
 ```
 
 
-## Contributors
+== Contributors
 
 `app-misc/fluxgui`:
 
