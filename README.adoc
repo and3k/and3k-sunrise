@@ -3,6 +3,9 @@
 [link=http://gpo.zugaina.org/Overlays/and3k-sunrise]
 image::https://img.shields.io/badge/Gentoo_Linux-Portage_overlay-6e56af[Gentoo Linux Portage overlay]
 
+[link=https://github.com/and3k/and3k-sunrise/issues]
+image::https://img.shields.io/github/issues/and3k/and3k-sunrise[open issues]
+
 This is my personal Portage overlay for Gentoo Linux.
 
 Browse it at http://gpo.zugaina.org/Overlays/and3k-sunrise or https://github.com/and3k/and3k-sunrise.
